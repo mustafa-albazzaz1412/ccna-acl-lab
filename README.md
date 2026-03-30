@@ -17,9 +17,13 @@ Configured extended ACLs to control traffic based on source IP, destination IP, 
 
 ## Key Configuration
 - Configured extended ACLS to fulfill the following network policies:
+  
       -Hosts in 172.16.2.0/24 can't communicate with PC1.
+  
       -Hosts in 172.16.1.0/24 can't access the DNS service on SRV1.
+  
       -Hosts in 172.16.2.0/24 can't access the HTTP or HTTPS services on SRV2.
+  
 - Applied ACLs to interfaces in the correct direction (inbound/outbound)
 - Controlled traffic based on IP addresses and protocols
 
