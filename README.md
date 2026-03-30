@@ -3,7 +3,7 @@
 This lab demonstrates traffic filtering using extended access control lists in Cisco Packet Tracer.
 
 ## Overview
-Configured extended ACLs to control traffic based on source IP, destination IP, and protocol, simulating real-world network security policies.
+Configured extended ACLs to control and secure network traffic based on source, destination, and protocol, simulating real-world network security policies.
 
 ## Skills Demonstrated
 - Extended ACL Configuration
@@ -24,7 +24,7 @@ Configured extended ACLs to control traffic based on source IP, destination IP, 
   
       -Hosts in 172.16.2.0/24 can't access the HTTP or HTTPS services on SRV2.
   
-- Applied ACLs to interfaces in the correct direction (inbound/outbound)
+- Applied ACLs close to the source for efficiency
 - Controlled traffic based on IP addresses and protocols
 
 ## Verification
